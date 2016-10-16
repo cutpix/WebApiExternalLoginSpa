@@ -7,7 +7,7 @@ The intent was to do something similar to these instructions on SO http://stacko
 I have the site URL set to http://localhost:2999/FacebookCallback. I'm opening a window using target=blank and then using window.opener to set the route from the child window after the callback as kind of a hack because I hate the redirect.
 
 # TODOs
-Couch DB demo...
-Google authentication
-Ionic2 version
+Couch DB demo...<br>
+Google authentication<br>
+Ionic2 version<br>
 
