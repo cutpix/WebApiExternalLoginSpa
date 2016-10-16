@@ -1,0 +1,16 @@
+﻿<h1>Facebook Callback</h1>
+
+<p><a href="#/">Main</a></p>
+
+
+<div ng-if="vm.error" style="color: red">
+    {{ vm.error | json }}
+</div>
+
+<div>
+    <button class="btn btn-primary" ng-click="vm.callSecureEndpoint()">Call Secure Endpoint</button>
+</div>
+
+<pre>   
+    {{ vm | json }}
+</pre>
